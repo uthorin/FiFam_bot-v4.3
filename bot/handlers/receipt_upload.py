@@ -4,7 +4,7 @@ from aiogram.fsm.context import FSMContext
 from bot.keyboards.entry import post_entry_keyboard
 from bot.states import ReceiptStates
 from config import load_config
-config = load_config()
+#config = load_config()
 from database.receipt import add_receipt, add_receipt_item
 from uuid import uuid4
 import os
